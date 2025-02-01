@@ -1,3 +1,4 @@
+Catch-all Segments
 different rout segments
 1.  create a folder in app called "docs"
 

@@ -1,3 +1,4 @@
+//Catch-all Segments
 export default function Docs({
     params,
 }: {
