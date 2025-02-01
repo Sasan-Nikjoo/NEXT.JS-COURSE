@@ -1,0 +1,14 @@
+different rout segments
+1.  create a folder in app called "docs"
+
+2.  create a folder in docs called "[...slug]" ---> slug is a random name
+
+3.  create a page.tsx in "[...slug]"
+
+4.  search for "http://localhost:3000/docs/feature1" or 
+"http://localhost:3000/docs/feature1/concept1" or
+"http://localhost:3000/docs/feature1/concept1/example1" in browser
+all lead us to the Docs home page
+
+5. if wants to lead to 'Docs home page' with "http://localhost:3000/docs"
+we can use "[[...slug]]" as the name for the folder
