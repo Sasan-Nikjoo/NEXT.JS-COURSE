@@ -1,4 +1,6 @@
 // nested Dynamic routes by having Dynamic segments in the folder names
+import { notFound } from "next/navigation";
+
 export default function ReviewDetail({
     params,
 }: {
@@ -9,6 +11,9 @@ export default function ReviewDetail({
 
 })
 {
+    if(parseInt(params.reviewId) > 1000){
+        notFound();
+    }
     return<h1>
         Review{params.reviewId} for the product {params.productId}
     </h1>
